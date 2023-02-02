@@ -1,0 +1,754 @@
+# Diese viminfo-Datei wurde von Vim 9.0 generiert.
+# Sie k√∂nnen sie ver√§ndern, wenn Sie vorsichtig vorgehen!
+
+# Viminfo version
+|1,4
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/\<test\>
+
+# Letzte ersetzte Zeichenkette:
+$
+
+# Befehlszeile Geschichte (neueste bis √§lteste):
+:q
+|2,0,1675359961,,"q"
+:NERDTree
+|2,0,1675359945,,"NERDTree"
+:wq
+|2,0,1675103062,,"wq"
+:NerdTre
+|2,0,1674922954,,"NerdTre"
+:PluginInstall
+|2,0,1674922945,,"PluginInstall"
+:set relativenumber
+|2,0,1674421828,,"set relativenumber"
+:help set number
+|2,0,1674421224,,"help set number"
+:help :set number
+|2,0,1674421212,,"help :set number"
+:help set
+|2,0,1674421180,,"help set"
+:setnumber relative
+|2,0,1674421175,,"setnumber relative"
+:open
+|2,0,1674419957,,"open"
+:!cd
+|2,0,1674419950,,"!cd"
+:tabnew
+|2,0,1674419942,,"tabnew"
+:o $HOME/.vimrc
+|2,0,1674419930,,"o $HOME/.vimrc"
+:o
+|2,0,1674419914,,"o"
+:newtab
+|2,0,1674419906,,"newtab"
+:tab1
+|2,0,1674419175,,"tab1"
+:sp
+|2,0,1674419136,,"sp"
+:help s
+|2,0,1674418957,,"help s"
+:w
+|2,0,1674418713,,"w"
+:WQ
+|2,0,1673979930,,"WQ"
+:q!
+|2,0,1673903638,,"q!"
+:tab
+|2,0,1673729269,,"tab"
+
+# Suchausdruck Geschichte (neueste bis √§lteste):
+? @$
+|2,1,1674421910,,"@$"
+? \<test\>
+|2,1,1674336206,,"\\<test\\>"
+
+# Ausdruck Geschichte (neueste bis √§lteste):
+
+# Eingabe-Zeile Geschichte (neueste bis √§lteste):
+
+# Debug-Zeile Geschichte (neueste bis √§lteste):
+
+# Register:
+""0	LINE	0
+	
+	## _Fri Jan 20 2023_
+	[l] Amazon feuert 18.000 Mitarbeiter.
+	So schlecht lief Rings of Power!
+	
+|3,1,0,1,5,0,1674421914,"","## _Fri Jan 20 2023_","[l] Amazon feuert 18.000 Mitarbeiter.","So schlecht lief Rings of Power!",""
+"1	LINE	0
+	print('test')
+|3,0,1,1,1,0,1674336278,"print('test')"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1674336272,""
+"3	LINE	0
+	 und eine leere Beschreibung bricht den Commit ab.
+|3,0,3,1,1,0,1674332399," und eine leere Beschreibung bricht den Commit ab."
+"4	LINE	0
+	#
+|3,0,4,1,1,0,1674332270,"#"
+"5	LINE	0
+	syntax enable
+	
+|3,0,5,1,2,0,1673729292,"syntax enable",""
+"6	LINE	0
+	colorscheme monokai
+|3,0,6,1,1,0,1673729291,"colorscheme monokai"
+"7	LINE	0
+	
+	" All of your Plugins must be added before the following line
+|3,0,7,1,2,0,1673727830,"","\" All of your Plugins must be added before the following line"
+"8	LINE	0
+	" Plugin 'ascenator/L9', {'name': 'newL9'}
+|3,0,8,1,1,0,1673727825,"\" Plugin 'ascenator/L9', {'name': 'newL9'}"
+"9	LINE	0
+	" different version somewhere else.
+|3,0,9,1,1,0,1673727825,"\" different version somewhere else."
+"s	CHAR	0
+	Ä˝a;w
+|3,0,28,0,1,0,1674419003,"Ä˝a;w"
+"-	CHAR	0
+	s
+|3,0,36,0,1,0,1674419989,"s"
+
+# Datei-Markierungen:
+'0  9  0  ~/NERD_tree_1
+|4,48,9,0,1675359961,"~/NERD_tree_1"
+'1  1  0  ~/Coding/gfinancepy/README.md
+|4,49,1,0,1675356815,"~/Coding/gfinancepy/README.md"
+'2  10  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,50,10,0,1675103062,"~/.dotfiles/.git/COMMIT_EDITMSG"
+'3  10  0  ~/.dotfiles/README.md
+|4,51,10,0,1675103042,"~/.dotfiles/README.md"
+'4  1  0  ~/NERD_tree_1
+|4,52,1,0,1674922987,"~/NERD_tree_1"
+'5  29  0  ~/NERD_tree_1
+|4,53,29,0,1674922987,"~/NERD_tree_1"
+'6  16  26  ~/.vimrc
+|4,54,16,26,1674922939,"~/.vimrc"
+'7  4  0  ~/Coding/rust_playground/hello.rs
+|4,55,4,0,1674922684,"~/Coding/rust_playground/hello.rs"
+'8  3  10  ~/.ssh/config
+|4,56,3,10,1674921534,"~/.ssh/config"
+'9  4  7  ~/.ssh/config
+|4,57,4,7,1674921504,"~/.ssh/config"
+
+# Jumplist (neueste zuerst):
+-'  9  0  ~/NERD_tree_1
+|4,39,9,0,1675359961,"~/NERD_tree_1"
+-'  21  0  ~/NERD_tree_1
+|4,39,21,0,1675359948,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1675359948,"~/NERD_tree_1"
+-'  1  0  ~/Coding/gfinancepy/README.md
+|4,39,1,0,1675356815,"~/Coding/gfinancepy/README.md"
+-'  1  0  ~/Coding/gfinancepy/README.md
+|4,39,1,0,1675356815,"~/Coding/gfinancepy/README.md"
+-'  10  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,10,0,1675103062,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,10,0,1675103062,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,10,0,1675103062,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,10,0,1675103062,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1675103047,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1675103047,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1675103047,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1675103047,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  10  0  ~/.dotfiles/README.md
+|4,39,10,0,1675103042,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  1  0  ~/.dotfiles/README.md
+|4,39,1,0,1675102853,"~/.dotfiles/README.md"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  29  0  ~/NERD_tree_1
+|4,39,29,0,1674922987,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  54  0  ~/NERD_tree_1
+|4,39,54,0,1674922974,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1674922974,"~/NERD_tree_1"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  16  26  ~/.vimrc
+|4,39,16,26,1674922939,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1674922875,"~/.vimrc"
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/NERD_tree_1
+	*	1675359959	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/Coding/gfinancepy/makeanewstockfolder.py
+	*	1675359957	0
+	"	1	0
+
+> ~/Coding/gfinancepy/README.md
+	*	1675356289	0
+	"	1	0
+
+> ~/.dotfiles/.git/COMMIT_EDITMSG
+	*	1675103061	0
+	"	10	0
+	^	10	0
+	.	10	0
+	+	11	0
+	+	10	0
+
+> ~/.dotfiles/README.md
+	*	1675103042	0
+	"	10	0
+	^	10	0
+	.	9	73
+	+	9	73
+
+> ~/Coding/project_euler/pe_problem_0014.py
+	*	1674922984	0
+	"	46	2
+
+> ~/.vimrc
+	*	1674922938	0
+	"	16	26
+	^	16	27
+	.	16	26
+	+	1	12
+	+	1	0
+	+	1	18
+	+	30	42
+	+	1	19
+	+	13	0
+	+	17	0
+	+	13	8
+	+	17	61
+	+	14	22
+	+	15	23
+	+	31	0
+	+	50	10
+	+	1	0
+	+	31	9
+	+	32	19
+	+	51	17
+	+	16	26
+
+> ~/Coding/rust_playground/hello.rs
+	*	1674922683	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	4	0
+
+> ~/.ssh/config
+	*	1674921533	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	4	7
+	+	2	6
+	+	3	10
+
+> ~/.ssh/known_hosts
+	*	1674921304	0
+	"	1	0
+
+> ~/Coding/project_euler/.git/COMMIT_EDITMSG
+	*	1674903795	0
+	"	12	0
+	^	12	0
+	.	11	15
+	+	10	37
+	+	10	77
+	+	10	37
+	+	11	15
+
+> ~/Coding/project_euler/pe_problem_0022.py
+	*	1674903776	0
+	"	1	18
+	^	19	14
+	.	19	13
+	+	7	18
+	+	7	1
+	+	7	17
+	+	14	48
+	+	12	1
+	+	11	73
+	+	23	0
+	+	25	58
+	+	26	63
+	+	27	2
+	+	19	3
+	+	18	3
+	+	19	13
+
+> ~/Coding/project_euler/pe_problem_002
+	*	1674903532	0
+	"	1	0
+
+> ~/Coding/TheMissingSemester/vimtestfile.md
+	*	1674422082	0
+	"	1	0
+	^	17	21
+	.	14	0
+	+	1	2
+	+	2	1
+	+	3	45
+	+	5	16
+	+	1	1
+	+	5	2
+	+	7	19
+	+	15	19
+	+	19	16
+	+	1	0
+	+	22	0
+	+	17	0
+	+	14	0
+
+> /usr/share/vim/vim90/doc/options.txt
+	*	1674421203	0
+	"	68	11
+
+> ~/Coding/TheMissingSemester/$HOME/.vimrc
+	*	1674419934	0
+	"	1	0
+
+> /usr/share/vim/vim90/doc/change.txt
+	*	1674418961	0
+	"	198	7
+
+> ~/Coding/TheMissingSemester/vimtestfile.txt
+	*	1674418552	0
+	"	1	6
+	^	1	7
+	.	21	21
+	+	21	21
+
+> ~/Coding/project_euler/pe_problem_0027.py
+	*	1674336462	0
+	"	6	1
+	^	6	2
+	.	6	2
+	+	2	36
+	+	2	37
+	+	3	0
+	+	3	13
+	+	2	1
+	+	1	1
+	+	3	0
+	+	6	2
+
+> ~/Coding/project_euler/.git/MERGE_MSG
+	*	1674332413	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	6	0
+	+	5	1
+	+	6	0
+
+> ~/Coding/project_euler/pe_problem_0045.py
+	*	1674332220	0
+	"	20	12
+	^	20	13
+	.	20	13
+	+	3	0
+	+	17	9
+	+	20	13
+
+> ~/Agent
+	*	1673984184	0
+	"	1	0
+
+> ~/Coding/project_euler/pe_problem_0040.py
+	*	1673983809	0
+	"	27	6
+	^	27	7
+	.	27	6
+	+	12	0
+	+	13	3
+	+	12	3
+	+	13	8
+	+	8	12
+	+	14	29
+	+	13	3
+	+	14	37
+	+	12	4
+	+	21	15
+	+	26	19
+	+	21	50
+	+	22	15
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	11	0
+	+	14	3
+	+	13	10
+	+	14	26
+	+	13	6
+	+	9	4
+	+	15	8
+	+	19	0
+	+	17	23
+	+	16	4
+	+	17	22
+	+	26	35
+	+	26	39
+	+	26	69
+	+	22	16
+	+	23	0
+	+	26	3
+	+	23	2
+	+	31	0
+	+	25	17
+	+	24	2
+	+	31	0
+	+	27	16
+	+	30	7
+	+	27	6
+	i	27	5
+
+> ~/Coding/project_euler/README.md
+	*	1673979783	0
+	"	16	19
+	^	16	20
+	.	16	19
+	+	18	0
+	+	16	19
+
+> ~/id_ed25519.pub
+	*	1673979597	0
+	"	1	0
+
+> ~/.alacritty.yml
+	*	1673979574	0
+	"	848	0
+	^	140	90
+	.	140	89
+	+	71	13
+	+	112	0
+	+	140	89
+
+> ~/.ssh/id_ed25519.pub
+	*	1673979419	0
+	"	1	0
+
+> ~/.config/sway/config.d/input
+	*	1673903655	0
+	"	1	0
+	^	15	34
+	.	15	33
+	+	15	32
+	+	16	0
+	+	15	33
+
+> ~/.config/sway/keyboard.conf
+	*	1673903602	0
+	"	411	2
+
+> ~/.config/sway/config
+	*	1673903569	0
+	"	1	0
+
+> ~/.config/sway/config.d/application_defaults
+	*	1673902984	0
+	"	51	0
+
+> ~/.config/sway/config.d/clamshell
+	*	1673902957	0
+	"	1	0
+
+> ~/.config/sway/config.d/output
+	*	1673902946	0
+	"	1	0
+
+> ~/.config/sway/config.d/theme
+	*	1673816236	0
+	"	24	11
+	^	24	12
+	.	6	11
+	+	18	45
+	+	5	11
+	+	6	12
+	+	5	11
+	+	6	11
+	+	5	11
+	+	6	11
+
+> ~/.config/sway/config.d/autostart_applications
+	*	1673731472	0
+	"	20	29
+	^	20	30
+	.	20	29
+	+	20	29
+
+> ~/.test.py
+	*	1673729685	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	3	25
+	+	5	0
+	+	4	0
+
+> ~/.te
+	*	1673729651	0
+	"	1	0
+
+> ~/test.py
+	*	1673729271	0
+	"	3	0
+	^	3	0
+	.	2	16
+	+	1	11
+	+	2	3
+	+	2	16
+
+> ~/[Vundle] Installer
+	*	1673728602	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/.config/cmus/lib.pl
+	*	1673727546	0
+	"	1	0
+
+> ~/monokai.vim
+	*	1673472389	0
+	"	73	0
+	.	1	0
+	+	128	0
+	+	1	0
+
+> ~/.zshrc
+	*	1673472133	0
+	"	73	28
+	^	73	29
+	.	73	28
+	+	11	18
+	+	73	28
+
+> /tmp/tutors85zBY
+	*	1673471024	0
+	"	1	0
+
+> ~/.config/alacritty.yml
+	*	1673386903	0
+	"	490	14
+	^	72	15
+	.	72	14
+	+	71	13
+	+	189	2
+	+	189	89
+	+	189	0
+	+	189	2
+	+	189	0
+	+	189	2
+	+	189	4
+	+	189	2
+	+	189	4
+	+	189	2
+	+	189	3
+	+	189	4
+	+	189	2
+	+	189	0
+	+	71	9
+	+	189	0
+	+	188	0
+	+	71	8
+	+	72	15
+	+	72	14
+
+> ~/alacritty.yml
+	*	1673385898	0
+	"	1	0
+
+> ~/.config/sway/config.d/default
+	*	1673384130	0
+	"	228	34
+	^	219	35
+	.	219	34
+	+	19	24
+	+	218	43
+	+	220	0
+	+	219	34
+
+> ~/.config/waybar/config
+	*	1673300697	0
+	"	10	0
+	^	10	0
+	.	10	0
+	+	10	0
