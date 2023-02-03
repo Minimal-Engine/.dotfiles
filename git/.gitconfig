@@ -1,0 +1,3 @@
+[core]
+	excludesFile = ~/.dotfiles/git/.gitignore
+	editor = vim
