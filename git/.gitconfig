@@ -2,5 +2,3 @@
 	excludesFile = ~/.dotfiles/git/.gitignore
 	editor = vim
 [user]
-	email = dawidrzeszutek@gmail.com
-	name = dawid
