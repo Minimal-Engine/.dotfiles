@@ -49,3 +49,7 @@ let g:ale_linters = {'python': ['flake8']}
 
 set number
 set relativenumber
+set laststatus=2
+set backspace=indent,eol,start
+set incsearch
+
