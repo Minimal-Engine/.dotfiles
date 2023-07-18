@@ -52,4 +52,5 @@ set relativenumber
 set laststatus=2
 set backspace=indent,eol,start
 set incsearch
+autocmd VimEnter * NERDTree
 
