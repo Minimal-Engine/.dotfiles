@@ -1,0 +1,7 @@
+# Include Subtitles
+-- embed-subs
+
+# Remux video to mp4
+-- remux-video mkv
+
+
