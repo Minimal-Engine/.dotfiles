@@ -1,0 +1,7 @@
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/zsh"
+
+[window]
+startup_mode = "Fullscreen"
+opacity = 0.8
