@@ -7,6 +7,7 @@ brew "flake8", link: false
 brew "git"
 brew "htop"
 brew "irssi"
+brew "mas"
 brew "midnight-commander"
 brew "yt-dlp"
 brew "mpv"
@@ -27,6 +28,7 @@ cask "anki"
 cask "audacity"
 cask "aural"
 cask "blackhole-2ch"
+cask "brave-browser"
 cask "calibre"
 cask "cyberduck"
 cask "db-browser-for-sqlite"
@@ -56,3 +58,9 @@ cask "vlc"
 cask "vorta"
 cask "wechat"
 cask "yacreader"
+mas "Amphetamine", id: 937984704
+mas "Kindle", id: 302584613
+mas "LINE", id: 539883307
+mas "Pocket", id: 568494494
+mas "Tomato One", id: 907364780
+mas "Unsplash Wallpapers", id: 1284863847
