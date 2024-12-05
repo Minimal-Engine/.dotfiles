@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# List of flatpaks to install
+flatpak_apps=(
+    org.gnome.World.PikaBackup
+    net.ankiweb.Anki
+    md.obsidian.Obsidian
+    org.mozilla.Thunderbird
+    org.freecad.FreeCAD
+    org.gimp.GIMP
+    org.videolan.VLC
+    com.valvesoftware.Steam
+    org.duckstation.DuckStation
+    com.discordapp.Discord
+    org.telegram.desktop
+    com.visualstudio.code
+    com.calibre_ebook.calibre
+    com.yacreader.YACReader
+    com.mattjakeman.ExtensionManager
+    org.torproject.torbrowser-launcher
+    org.keepassxc.KeePassXC
+    net.pcsx2.PCSX2
+    de.haeckerfelix.Shortwave
+    com.transmissionbt.Transmission
+    net.rpcs3.RPCS3
+    io.bassi.Amberol
+)
+
+# Add Flathub remote repository if not added
+if ! flatpak remote-list | grep -q "flathub"; then
+    echo "Adding Flathub remote repository..."
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+fi
+
+# Install each flatpak application
+for app in "${flatpak_apps[@]}"; do
+  echo "Installing $app..."
+  flatpak install flathub $app -y
+done
+
+echo "All flatpaks installed successfully."
