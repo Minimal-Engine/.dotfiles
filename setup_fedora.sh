@@ -44,3 +44,12 @@ git confing --global core.editor "vim"
 cd 
 git clone git@github.com:Minimal-Engine/.dotfiles.git
 
+## Install some additional stuff
+
+sudo dnf install google-chrome-stable nvim tmux alacritty
+
+cd
+cd dotfiles
+
+chmod +x install_my_flatpaks.sh
+sh  ~/.dotfiles/install_my_flatpaks.sh
