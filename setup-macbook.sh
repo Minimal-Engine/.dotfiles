@@ -1,13 +1,32 @@
 #!/bin/bash
 
-## system-settings
+# system-settings
+
+## deactivate SIRI
+
+## deavtivate STAGE-MANAGER
+
+## set up hot corners
+
+### lower left for desktop view
+
+### top left for screen lock
+
+## set up dock, on lower part, autohide, switch off animations.
 
 
-## setup git and pull my .dotfiles
+# generate a new pair of ssh-keys
 
 
-
-## install brew
+# install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# setup git and pull my .dotfiles
 
+## stow my settings
+
+## install the programms from my brewfile
+
+## set the jpeg from my brewfiles as centered desktop background
+
+# set some programs to autostart and as permanent into the dock

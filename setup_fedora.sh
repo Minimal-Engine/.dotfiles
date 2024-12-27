@@ -48,8 +48,16 @@ git clone git@github.com:Minimal-Engine/.dotfiles.git
 
 sudo dnf install google-chrome-stable nvim tmux alacritty
 
+
+# stow my dotfiles 
 cd
 cd dotfiles
 
+
+# install my flatpaks
+
 chmod +x install_my_flatpaks.sh
 sh  ~/.dotfiles/install_my_flatpaks.sh
+
+# set my desktop wallpaper
+
