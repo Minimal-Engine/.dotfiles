@@ -18,14 +18,16 @@ $appList = @(
     "7zip.7zip",                    # 7zip
     "Microsoft.Office",             # Microsoft 365 (Office)
     "Obsidian.Obsidian",            # Obsidian
-    "Outline.Outline",              # Outline
+    "Microsoft.VisualStudioCode",   # Visual Studio Code
+    "Git.Git",                      # Git
     "Anki.Anki",                    # Anki
     "Mozilla.Firefox",              # Firefox
     "Google.Chrome",                # Google Chrome
-    "Google.Drive",                 # Google Drive
-    "KeePassXC.KeePassXC",          # KeePassXC
+    "Google.GoogleDrive",           # Google Drive
+    "KeePassXCTeam.KeePassXC",      # KeePassXC
     "Microsoft.MinecraftLauncher",  # Minecraft Client
     "Mozilla.Thunderbird"           # Thunderbird
+    "Microsoft.Powershell"          # PowerShell
 )
 
 # Loop through the list and install each application including dependencies
