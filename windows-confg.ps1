@@ -1,11 +1,10 @@
-
 # Block zum Installieren von Software
 
 # Check if the script is running with administrator privileges
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Host "This script requires administrator privileges. Please approve the elevation prompt." -ForegroundColor Yellow
     # Relaunch the script with elevated privileges
-    Start-Process powershell -ArgumentList ("-File `"" + $PSCommandPath + "`"") -Verb RunAs
+    Start-Process powershell -ArgumentList ("-File `"$($MyInvocation.MyCommand.Path)`"") -Verb RunAs
     exit
 }
 
@@ -14,8 +13,7 @@ Write-Host "Installing applications with administrator privileges and dependenci
 
 # Define a list of applications to install with their package identifiers
 $appList = @(
-    "VideoLAN.VLC",                # VLC Media Player
-    "veracrypt.VeraCrypt",          # VeraCrypt
+    "VideoLAN.VLC",                 # VLC Media Player
     "Valve.Steam",                  # Steam
     "7zip.7zip",                    # 7zip
     "Microsoft.Office",             # Microsoft 365 (Office)
@@ -33,7 +31,7 @@ $appList = @(
 # Loop through the list and install each application including dependencies
 foreach ($app in $appList) {
     Write-Host "Installing $app and its dependencies..."
-    winget install --id $app --silent --accept-source-agreements --accept-package-agreements --include-optional
+    winget install --id $app --silent --accept-source-agreements --accept-package-agreements
     if ($?) {
         Write-Host "$app installed successfully!" -ForegroundColor Green
     } else {
