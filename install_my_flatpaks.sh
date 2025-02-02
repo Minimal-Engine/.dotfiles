@@ -30,12 +30,21 @@ flatpak_apps=(
 if ! flatpak remote-list | grep -q "flathub"; then
     echo "Adding Flathub remote repository..."
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    if [ $? -ne 0 ]; then
+        echo "Failed to add Flathub repository. Exiting."
+        exit 1
+    fi
 fi
 
 # Install each flatpak application
 for app in "${flatpak_apps[@]}"; do
-  echo "Installing $app..."
-  flatpak install flathub $app -y
+    echo "Installing $app..."
+    flatpak install -y flathub "$app"
+    if [ $? -eq 0 ]; then
+        echo "$app installed successfully."
+    else
+        echo "Failed to install $app."
+    fi
 done
 
 echo "All flatpaks installed successfully."

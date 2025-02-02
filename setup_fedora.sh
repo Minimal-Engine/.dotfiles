@@ -45,7 +45,8 @@ firefox "https://github.com/settings/keys"
 ## install and configure git
 
 sudo dnf install git
-git config --global user.name|user.email "${USER}-${HOSTNAME}|d.rzeszutek@icloud.com"
+git config --global user.name "${USER}-${HOSTNAME}"
+git config --global user.email "d.rzeszutek@icloud.com"
 git confing --global core.editor "vim"
 
 ## pull dotfiles
@@ -57,13 +58,13 @@ git clone git@github.com:Minimal-Engine/.dotfiles.git
 # stow my dotfiles 
 
 cd
-cd dotfiles
+cd .dotfiles
 
 
 # install my flatpaks
 
-chmod +x install_my_flatpaks.sh
-sh  ~/.dotfiles/install_my_flatpaks.sh
+chmod +x install_flatpaks.sh
+sh  ~/.dotfiles/install_flatpaks.sh
 
 # set my desktop wallpaper
 
