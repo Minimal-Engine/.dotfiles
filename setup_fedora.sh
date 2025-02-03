@@ -29,7 +29,7 @@ sudo dnf install steam -y
 
 ## Install additional packages
 
-sudo dnf install nvim tmux alacritty nvim zsh stow yt-dlp -y
+sudo dnf install tldr nvim tmux alacritty nvim zsh stow yt-dlp -y
 
 # Dotfiles herunterladen:
 
@@ -64,7 +64,12 @@ git clone git@github.com:Minimal-Engine/.dotfiles.git
 # stow my dotfiles 
 
 cd ~/.dotfiles
-
+stow alacritty
+stow git
+stow vim
+stow yt-dlp
+stow zsh
+stow tmux
 
 # install my flatpaks
 
@@ -72,5 +77,11 @@ chmod +x ~/.dotfiles/install_flatpaks.sh
 sh  ~/.dotfiles/install_flatpaks.sh
 
 # set up gnome
+
 sudo dnf install gnome-tweaks -y
 gsettings set org.gnome.desktop.background picture-uri file:/home/${USER}/.dotfiles/wallpapers/minimal_wallpaper.jpg
+
+# set up zsh
+
+chsh -s $(which zsh)
+
