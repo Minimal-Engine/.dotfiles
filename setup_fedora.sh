@@ -1,6 +1,5 @@
 # /bin/sh
 
-
 # Script für meine Fedora-Installation
 
 # zusätzliche Paketquellen hinzufügen:
@@ -9,21 +8,28 @@
 
 echo "Adding RPM-Fusion Repo"
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 
-## Mullvad repo
+## Mullvad repo and installation
 
 echo "adding Mullvad Repo for VPN"
 sudo dnf config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
+sudo dnf install mullvad-vpn -y
 
-## Virtualbox repo
+## Install VSCode
 
-echo "adding Virtual Box repo for Virtualbox"
-sudo dnf config-manager addrepo --from-repofile=​https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
-sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+dnf check-update
+sudo dnf install code
+
+## Install steam
+
+sudo dnf install steam -y
 
 ## Install additional packages
 
-sudo dnf install google-chrome-stable nvim tmux alacritty nvim zsh stow git
+sudo dnf install nvim tmux alacritty nvim zsh stow yt-dlp -y
 
 # Dotfiles herunterladen:
 
@@ -44,27 +50,27 @@ firefox "https://github.com/settings/keys"
 
 ## install and configure git
 
-sudo dnf install git
+sudo dnf install git -y
 git config --global user.name "${USER}-${HOSTNAME}"
 git config --global user.email "d.rzeszutek@icloud.com"
-git confing --global core.editor "vim"
+git config --global core.editor "nvim"
 
 ## pull dotfiles
 
-cd 
+cd ~
 git clone git@github.com:Minimal-Engine/.dotfiles.git
 
 
 # stow my dotfiles 
 
-cd
-cd .dotfiles
+cd ~/.dotfiles
 
 
 # install my flatpaks
 
-chmod +x install_flatpaks.sh
+chmod +x ~/.dotfiles/install_flatpaks.sh
 sh  ~/.dotfiles/install_flatpaks.sh
 
-# set my desktop wallpaper
-
+# set up gnome
+sudo dnf install gnome-tweaks -y
+gsettings set org.gnome.desktop.background picture-uri file:/home/${USER}/.dotfiles/wallpapers/minimal_wallpaper.jpg

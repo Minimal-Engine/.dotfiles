@@ -21,7 +21,6 @@ flatpak_apps=(
     de.haeckerfelix.Shortwave
     com.transmissionbt.Transmission
     net.rpcs3.RPCS3
-    io.bassi.Amberol
 )
 
 # Add Flathub remote repository if not added
