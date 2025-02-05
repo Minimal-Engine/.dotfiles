@@ -8,7 +8,6 @@ flatpak_apps=(
     org.mozilla.Thunderbird
     org.freecad.FreeCAD
     org.gimp.GIMP
-    org.videolan.VLC
     org.duckstation.DuckStation
     com.discordapp.Discord
     org.telegram.desktop 
