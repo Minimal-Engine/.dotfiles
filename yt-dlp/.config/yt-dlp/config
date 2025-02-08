@@ -1,0 +1,14 @@
+# Include Subtitles
+--embed-subs
+
+# Remux video to mp4
+--remux-video mkv
+
+# Download-diirectory
+-o ~/Downloads/%(channel)s - %(playlist_title)s - %(title)s.%(ext)s
+
+## thumbnail
+--embed-thumbnail
+
+# Metadata 
+--embed-metadata
