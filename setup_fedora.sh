@@ -79,7 +79,7 @@ sh  ~/.dotfiles/install_flatpaks.sh
 # set up gnome
 
 sudo dnf install gnome-tweaks -y
-gsettings set org.gnome.desktop.background picture-uri file:/home/${USER}/.dotfiles/wallpapers/minimal_wallpaper.jpg
+gsettings set org.gnome.desktop.background picture-uri file:/home/${USER}/.dotfiles/minimal_wallpaper.jpg
 
 # set up zsh
 
