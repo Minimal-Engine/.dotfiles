@@ -29,7 +29,7 @@ sudo dnf install steam -y
 
 ## Install additional packages
 
-sudo dnf install tldr nvim tmux alacritty nvim zsh stow yt-dlp vlc keepassxc -y
+sudo dnf install tldr nvim tmux alacritty nvim zsh stow yt-dlp vlc keepassxc unison -y
 
 # Dotfiles herunterladen:
 

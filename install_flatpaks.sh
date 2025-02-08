@@ -19,6 +19,10 @@ flatpak_apps=(
     de.haeckerfelix.Shortwave
     com.transmissionbt.Transmission
     net.rpcs3.RPCS3
+    org.freefilesync.FreeFileSync
+    org.audacityteam.Audacity
+    com.tencent.WeChat
+    org.getoutline.OutlineManager
 )
 
 # Add Flathub remote repository if not added
