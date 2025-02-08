@@ -22,3 +22,7 @@
 
 --audio-format opus
 --audio-quality 0
+
+## Browser-Cookies
+
+--cookies-from-browser firefox
