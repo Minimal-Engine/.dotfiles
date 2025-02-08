@@ -1,14 +1,24 @@
-# Include Subtitles
+# General configuraton for yt-dlp
+
+## Include Subtitles
+
 --embed-subs
+--sub-langs all
+--sub-format best
 
-# Remux video to mp4
---remux-video mkv
+## Download-diirectory and filename
 
-# Download-diirectory
--o ~/Downloads/%(channel)s - %(playlist_title)s - %(title)s.%(ext)s
+-o ~/Downloads/%(channel)s_%(playlist_title)s_%(title)s
 
 ## thumbnail
+
 --embed-thumbnail
 
-# Metadata 
+## Metadata
+
 --embed-metadata
+
+## Audio
+
+--audio-format opus
+--audio-quality 0
