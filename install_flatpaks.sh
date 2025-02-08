@@ -15,7 +15,6 @@ flatpak_apps=(
     com.yacreader.YACReader
     com.mattjakeman.ExtensionManager
     org.torproject.torbrowser-launcher
-    org.keepassxc.KeePassXC
     net.pcsx2.PCSX2
     de.haeckerfelix.Shortwave
     com.transmissionbt.Transmission
