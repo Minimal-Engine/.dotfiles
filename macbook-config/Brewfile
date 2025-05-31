@@ -46,11 +46,10 @@ cask "macfuse"
 cask "microsoft-auto-update"
 cask "microsoft-teams"
 cask "minecraft"
-cask "mullvadvpn"
+cask "mullvad-vpn"
 cask "obsidian"
 cask "onedrive"
 cask "outline-manager"
-cask "signal"
 cask "steam"
 cask "tor-browser"
 cask "transmission"
@@ -65,10 +64,7 @@ mas "AdBlock Pro", id: 1018301773
 mas "Amphetamine", id: 937984704
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
-mas "Momentum", id: 1564329434
 mas "Outline", id: 1356178125
-mas "Pocket", id: 568494494
-mas "Save to Pocket", id: 1477385213
 mas "The Unarchiver", id: 425424353
 mas "ToDo", id: 1498581975
 mas "Tomato One", id: 907364780
