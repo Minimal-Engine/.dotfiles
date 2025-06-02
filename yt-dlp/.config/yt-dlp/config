@@ -3,7 +3,7 @@
 ## Include Subtitles
 
 --embed-subs
---sub-langs all
+--sub-langs "en,zh,zh-CN,zh-Hans,ja,de"
 --sub-format best
 
 ## Download-diirectory and filename
