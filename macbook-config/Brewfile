@@ -65,9 +65,11 @@ mas "Amphetamine", id: 937984704
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
 mas "Outline", id: 1356178125
+mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "ToDo", id: 1498581975
 mas "Tomato One", id: 907364780
+mas "WhatsApp", id: 310633997
 vscode "davidanson.vscode-markdownlint"
 vscode "eamodio.gitlens"
 vscode "fabiospampinato.vscode-monokai-night"

@@ -21,6 +21,8 @@
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+
+
 # setup git and pull my .dotfiles
 
 ## stow my settings
@@ -30,3 +32,9 @@
 ## set the jpeg from my brewfiles as centered desktop background
 
 # set some programs to autostart and as permanent into the dock
+
+# setup mpvacious for mpv and Anki
+
+mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+cd ~/.config/mpv/scripts/subs2srs && git pull
