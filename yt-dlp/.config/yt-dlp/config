@@ -18,10 +18,20 @@
 
 --embed-metadata
 
+## Chapters
+
+--embed-chapters
+
 ## Audio
 
+--audio-multistreams
 --audio-format opus
 --audio-quality 0
+
+## Video
+
+--prefer-free-formats
+--merge-output-format "mkv"
 
 ## Browser-Cookies
 
