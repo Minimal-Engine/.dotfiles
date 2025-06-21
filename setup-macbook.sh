@@ -17,18 +17,11 @@ defaults write com.apple.dock wvous-br-corner -int 0
 # autohide the dock
 defaults write com.apple.dock autohide -bool true
 
-# generate a new pair of ssh-keys
-
-
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# setup git and pull my .dotfiles
-
-
 
 ## stow my settings
 
@@ -37,11 +30,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## set the jpeg from my brewfiles as centered desktop background and adapt color settings
 
 
-
 # set some programs to autostart and as permanent into the dock
 
 # setup mpvacious for mpv and Anki
-
 mkdir -p ~/.config/mpv/scripts/
 git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
 cd ~/.config/mpv/scripts/subs2srs && git pull
