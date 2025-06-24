@@ -27,7 +27,6 @@ brew "tree"
 brew "vim"
 brew "wget"
 brew "zsh"
-cask "alacritty"
 cask "anki"
 cask "aural"
 cask "browserosaurus"
@@ -35,6 +34,7 @@ cask "calibre"
 cask "cyberduck"
 cask "discord"
 cask "firefox"
+cask "ghostty"
 cask "google-chrome"
 cask "google-drive"
 cask "keepassxc"
@@ -47,6 +47,7 @@ cask "obsidian"
 cask "outline-manager"
 cask "retroarch-metal"
 cask "steam"
+cask "tomatobar"
 cask "tor-browser"
 cask "transmission"
 cask "veracrypt"
@@ -63,7 +64,6 @@ mas "Outline", id: 1356178125
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "ToDo", id: 1498581975
-mas "Tomato One", id: 907364780
 mas "WhatsApp", id: 310633997
 vscode "davidanson.vscode-markdownlint"
 vscode "eamodio.gitlens"
