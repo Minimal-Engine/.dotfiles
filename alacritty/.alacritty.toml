@@ -1,12 +1,13 @@
-[terminal.shell]
-args = ["-l", "-c", "tmux attach || tmux"]
-program = "/bin/zsh"
-
 [window]
 opacity = 0.8
+startup_mode = "Maximized"
 
-[terminal]
+[mouse]
+hide_when_typing = true
 
+[terminal.shell]
+program = "/opt/homebrew/bin/tmux" # <- Set your path
+args = ["new-session", "-A", "-D", "-s", "🏡 Home"]
 
 [general]
-import = ["~/.config/alacritty/themes/monokai.toml"]
+import = ["~/.config/alacritty/themes/monokai_pro.toml"]
