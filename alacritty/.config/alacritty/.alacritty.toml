@@ -9,6 +9,4 @@ opacity = 0.8
 
 
 [general]
-import = [
-    "~/.config/alacritty/themes/monokai.toml"
-]
+import = ["~/.config/alacritty/themes/monokai.toml"]
