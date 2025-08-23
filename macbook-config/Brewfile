@@ -31,7 +31,7 @@ brew "zsh"
 cask "alacritty"
 cask "anki"
 cask "aural"
-cask "brave-browser"
+cask "browserosaurus"
 cask "calibre"
 cask "cyberduck"
 cask "discord"
@@ -39,6 +39,7 @@ cask "google-chrome"
 cask "google-drive"
 cask "keepassxc"
 cask "libreoffice"
+cask "maccy"
 cask "microsoft-auto-update"
 cask "microsoft-teams"
 cask "minecraft"
@@ -62,7 +63,6 @@ mas "LINE", id: 539883307
 mas "Outline", id: 1356178125
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
-mas "ToDo", id: 1498581975
 mas "WhatsApp", id: 310633997
 vscode "davidanson.vscode-markdownlint"
 vscode "eamodio.gitlens"
