@@ -1,10 +1,12 @@
 tap "homebrew/bundle"
+tap "nikitabobko/tap"
 brew "borgbackup"
 brew "cmatrix"
-brew "ffmpeg"
 brew "cmus"
 brew "coreutils"
+brew "ffmpeg"
 brew "flake8"
+brew "gemini-cli"
 brew "git"
 brew "htop"
 brew "irssi"
@@ -28,6 +30,7 @@ brew "vim"
 brew "wget"
 brew "yazi"
 brew "zsh"
+cask "aerospace"
 cask "alacritty"
 cask "anki"
 cask "aural"
@@ -56,23 +59,26 @@ cask "wechat"
 cask "yacreader"
 mas "AdBlock Pro", id: 1018301773
 mas "Amphetamine", id: 937984704
+mas "Focus", id: 1554411065
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
+mas "Obsidian Web Clipper", id: 6720708363
 mas "Outline", id: 1356178125
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "WhatsApp", id: 310633997
+vscode "bierner.markdown-mermaid"
 vscode "davidanson.vscode-markdownlint"
-vscode "eamodio.gitlens"
-vscode "fabiospampinato.vscode-monokai-night"
 vscode "github.copilot"
 vscode "github.copilot-chat"
+vscode "jdinhlife.gruvbox"
 vscode "ms-ceintl.vscode-language-pack-de"
 vscode "ms-python.debugpy"
 vscode "ms-python.flake8"
 vscode "ms-python.isort"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
 vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
