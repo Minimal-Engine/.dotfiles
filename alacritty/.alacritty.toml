@@ -6,9 +6,9 @@ startup_mode = "Maximized"
 hide_when_typing = true
 
 # autostart tmux
-# [terminal.shell]
-# program = "/opt/homebrew/bin/tmux" # <- Set your path
-# args = ["new-session", "-A", "-D", "-s", "🏡 Home"]
+[terminal.shell]
+program = "/opt/homebrew/bin/tmux" # <- Set your path
+args = ["new-session", "-A", "-D", "-s", "🏡 Home"]
 
 # Thema
 [general]
