@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugins
 Plugin 'dense-analysis/ale'
 Plugin 'nvie/vim-flake8'
-Plugin 'preservim/nerdtree'
+"Plugin 'preservim/nerdtree'
 "All of your Plugins must be put in before the following lines
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -52,5 +52,5 @@ set relativenumber
 set laststatus=2
 set backspace=indent,eol,start
 set incsearch
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 
