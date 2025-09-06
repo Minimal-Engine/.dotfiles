@@ -4,7 +4,6 @@
 flatpak_apps=(
     org.gnome.World.PikaBackup
     net.ankiweb.Anki
-    md.obsidian.Obsidian
     org.mozilla.Thunderbird
     org.freecad.FreeCAD
     org.gimp.GIMP
@@ -20,9 +19,10 @@ flatpak_apps=(
     com.transmissionbt.Transmission
     net.rpcs3.RPCS3
     org.freefilesync.FreeFileSync
-    org.audacityteam.Audacity
     com.tencent.WeChat
     org.getoutline.OutlineManager
+    com.github.tenderowl.frog
+    io.bassi.Amberol
 )
 
 # Add Flathub remote repository if not added
