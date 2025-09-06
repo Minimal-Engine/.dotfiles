@@ -82,3 +82,5 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 chmod +x ~/.dotfiles/fedora_scripts/install_flatpaks.sh
 ~/.dotfiles/fedora_scripts/install_flatpaks.sh
 
+# setup wallpaper
+gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/$(whoami)/.dotfiles/wallpaper/minimal_wallpaper.jpg'
