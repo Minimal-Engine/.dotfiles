@@ -77,4 +77,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 rm ~/.zshrc
 stow ~/.dotfiles/zsh
 
+# install flatpak and some flatpaks
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+chmod +x ~/.dotfiles/fedora_scripts/install_flatpaks.sh
+~/.dotfiles/fedora_scripts/install_flatpaks.sh
 

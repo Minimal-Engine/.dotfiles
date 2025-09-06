@@ -21,6 +21,8 @@ flatpak_apps=(
     org.freefilesync.FreeFileSync
     com.github.tenderowl.frog
     io.bassi.Amberol
+    org.libretro.RetroArch
+    com.obsproject.Studio
 )
 
 # Add Flathub remote repository if not added
