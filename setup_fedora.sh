@@ -1,87 +1,80 @@
 # /bin/sh
 
-# Script für meine Fedora-Installation
+# setup fastest mirror and parrallel downloads in dnf config
+echo "fastestmirror=True
+max_parallel_downloads=10" | sudo tee -a /etc/dnf/dnf.conf
 
-# zusätzliche Paketquellen hinzufügen:
-
-## RPM-Fusion
-
-echo "Adding RPM-Fusion Repo"
+# setup rpmfusion repos
+# see: https://rpmfusion.org/Configuration
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 
-## Mullvad repo and installation
 
-echo "adding Mullvad Repo for VPN"
+# install essential software
+
+## Install keepassxc
+sudo dnf install keepassxc -y
+
+## add mullvad-repo and install it
 sudo dnf config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
 sudo dnf install mullvad-vpn -y
 
 ## Install VSCode
-
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 dnf check-update
-sudo dnf install code
+sudo dnf install code -y
+
+## Install essential tools
+sudo dnf install tldr mpv nvim tmux alacritty vim nvim zsh stow yt-dlp vlc keepassxc unison -y
 
 ## Install steam
-
 sudo dnf install steam -y
 
-## Install additional packages
-
-sudo dnf install tldr nvim tmux alacritty nvim zsh stow yt-dlp vlc keepassxc unison -y
-
-# Dotfiles herunterladen:
-
-## generate a new ssh key for the new machine and open firefox to add it to github
-
-echo "Generating new ssh-keypair"
-ssh-keygen -t ed25519 -C "d.rzeszutek@icloud.com" -f ~/.ssh/${USER}-${HOSTNAME}
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/${USER}-${HOSTNAME}
-echo ""
-echo "Copy this PublicKey:"
-cat ~/.ssh/${USER}-${HOSTNAME}.pub
-
-## open Firefox to add Public Key to GitHub
-
-echo "Opening Github. Please add generated Key and quit Firefox afterwards."
-firefox "https://github.com/settings/keys"
-
 ## install and configure git
-
 sudo dnf install git -y
 git config --global user.name "${USER}-${HOSTNAME}"
 git config --global user.email "d.rzeszutek@icloud.com"
 git config --global core.editor "nvim"
 
-## pull dotfiles
 
-cd ~
-git clone git@github.com:Minimal-Engine/.dotfiles.git
+# install and setup additional codecs, fw and hw-acceleration for amd
+# see https://rpmfusion.org/Howto/Multimedia
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 
+sudo dnf install rpmfusion-free-release-tainted
+sudo dnf install libdvdcss
 
-# stow my dotfiles 
+sudo dnf install rpmfusion-nonfree-release-tainted
+sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware"
 
+# pull my dotfiles and stow them
+## pull public dotfiles repo
+git clone Minimal-Engine/.dotfiles
 cd ~/.dotfiles
+
+##stow the first part
 stow alacritty
-stow git
 stow vim
 stow yt-dlp
-stow zsh
-stow tmux
+stow tmux 
 
-# install my flatpaks
+##setup vundle and install vim plugins
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
 
-chmod +x ~/.dotfiles/install_flatpaks.sh
-sh  ~/.dotfiles/install_flatpaks.sh
+## setup mpvacious 
+mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+cd ~/.dotfiles
+stow mpvacious
 
-# set up gnome
-
-sudo dnf install gnome-tweaks -y
-gsettings set org.gnome.desktop.background picture-uri file:/home/${USER}/.dotfiles/minimal_wallpaper.jpg
-
-# set up zsh
-
+## setup zsh and ohmyzsh
 chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+rm ~/.zshrc
+stow ~/.dotfiles/zsh
+
 
