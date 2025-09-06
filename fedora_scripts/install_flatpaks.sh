@@ -19,8 +19,6 @@ flatpak_apps=(
     com.transmissionbt.Transmission
     net.rpcs3.RPCS3
     org.freefilesync.FreeFileSync
-    com.tencent.WeChat
-    org.getoutline.OutlineManager
     com.github.tenderowl.frog
     io.bassi.Amberol
 )
