@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "nikitabobko/tap"
+brew "python@3.13"
 brew "borgbackup"
 brew "cmatrix"
 brew "cmus"
@@ -22,6 +23,7 @@ brew "pkgconf"
 brew "python@3.10"
 brew "python@3.11"
 brew "python@3.9"
+brew "sevenzip"
 brew "stow"
 brew "tldr"
 brew "tmux"
@@ -34,20 +36,24 @@ cask "aerospace"
 cask "alacritty"
 cask "anki"
 cask "aural"
-cask "brave-browser"
 cask "calibre"
 cask "cyberduck"
 cask "discord"
+cask "firefox"
 cask "google-drive"
 cask "keepassxc"
 cask "libreoffice"
 cask "maccy"
 cask "microsoft-auto-update"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
 cask "microsoft-teams"
+cask "microsoft-word"
 cask "minecraft"
 cask "mullvad-vpn"
 cask "obsidian"
 cask "outline-manager"
+cask "pcsx2"
 cask "retroarch-metal"
 cask "steam"
 cask "transmission"
@@ -62,9 +68,12 @@ mas "Amphetamine", id: 937984704
 mas "Focus", id: 1554411065
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
+mas "Momentum", id: 1564329434
 mas "Obsidian Web Clipper", id: 6720708363
 mas "Outline", id: 1356178125
+mas "SponsorBlock", id: 1573461917
 mas "Telegram", id: 747648890
+mas "TextSniper", id: 1528890965
 mas "The Unarchiver", id: 425424353
 mas "WhatsApp", id: 310633997
 vscode "bierner.markdown-mermaid"
@@ -72,7 +81,6 @@ vscode "davidanson.vscode-markdownlint"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "jdinhlife.gruvbox"
-vscode "ms-ceintl.vscode-language-pack-de"
 vscode "ms-python.debugpy"
 vscode "ms-python.flake8"
 vscode "ms-python.isort"
@@ -84,4 +92,3 @@ vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
 vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "vscodevim.vim"
