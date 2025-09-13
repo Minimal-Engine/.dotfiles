@@ -14,14 +14,18 @@ defaults write com.apple.dock wvous-tr-corner -int 0
 defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
 
-# autohide the dock
+## autohide the dock, remove recent apps
 defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock show-recents -bool NO
+killall Dock
 
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
 
 ## stow my settings
 
