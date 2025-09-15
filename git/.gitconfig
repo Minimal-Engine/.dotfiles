@@ -1,6 +1,6 @@
 [core]
 	excludesFile = ~/.dotfiles/git/.gitignore
-	editor = nvim
+	editor = vim
 [user]
 	email = d.rzeszutek@icloud.com
 	name = Dawid Lukasz
