@@ -106,4 +106,4 @@ fi
 # custom aliases
 
 alias chinese_inbox='cd ~/Movies/chinese_immersion_inbox/'
-alias japanese_inbox='cd ~/Movies/chinese_immersion_inbox/'
+alias japanese_inbox='cd ~/Movies/japanese_immersion_inbox/'
