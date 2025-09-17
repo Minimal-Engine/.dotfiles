@@ -102,3 +102,8 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# custom aliases
+
+alias chinese_inbox='cd ~/Movies/chinese_immersion_inbox/'
+alias japanese_inbox='cd ~/Movies/chinese_immersion_inbox/'
