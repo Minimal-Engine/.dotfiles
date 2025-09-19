@@ -104,6 +104,6 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # custom aliases
-
+alias bfdump='brew bundle dump -f'
 alias chinese_inbox='cd ~/Movies/chinese_immersion_inbox/'
 alias japanese_inbox='cd ~/Movies/japanese_immersion_inbox/'
