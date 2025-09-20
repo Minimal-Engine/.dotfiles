@@ -19,24 +19,39 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock show-recents -bool NO
 killall Dock
 
-# install brew
+## always hide menu bar
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+
+# install brew, install oh-my-zsh, stow my settings, install programs from my brewfile
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install oh-my-zsh
+## install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-
-
-## stow my settings
+## stow my macos settings
+cd ~/.dotfiles
+stow macos_config
 
 ## install the programms from my brewfile
+brew bundle --file=~/Brewfile
 
-## set the jpeg from my brewfiles as centered desktop background and adapt color settings
+## stow settings for installed programs
+cd ~/.dotfiles
+stow git
+stow aerospace
+stow alacritty
+stow tmux
 
+## setup vim
 
-# set some programs to autostart and as permanent into the dock
+## setup zsh
 
-# setup mpvacious for mpv and Anki
+## setup mpvacious for mpv and Anki
 mkdir -p ~/.config/mpv/scripts/
 git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
 cd ~/.config/mpv/scripts/subs2srs && git pull
+
+# setup ssh keys for github
+chmod +x ~/.dotfiles/macos_scripts/mac_generate_keypair.sh
+sh ~/.dotfiles/macos_scripts/mac_generate_keypair.sh
