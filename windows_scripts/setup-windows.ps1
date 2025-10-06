@@ -22,11 +22,9 @@ $appList = @(
     "Git.Git",                      # Git
     "Anki.Anki",                    # Anki
     "Mozilla.Firefox",              # Firefox
-    "Google.Chrome",                # Google Chrome
     "Google.GoogleDrive",           # Google Drive
     "KeePassXCTeam.KeePassXC",      # KeePassXC
     "Microsoft.MinecraftLauncher",  # Minecraft Client
-    "Mozilla.Thunderbird",           # Thunderbird
     "Microsoft.Powershell"          # PowerShell
 )
 
