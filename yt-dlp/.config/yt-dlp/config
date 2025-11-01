@@ -1,14 +1,15 @@
 # General configuraton for yt-dlp
 
+--verbose
+
 ## Include Subtitles
 
 --embed-subs
 --sub-langs "ja,zh,zh-CN,zh-Hans,en,de,fr"
---sub-format best
 
 ## Download-diirectory and filename
 
--o ~/Downloads/%(channel)s_%(playlist_title)s_%(title)s
+-o ~/Downloads/%(channel)s_%(title)s
 
 ## thumbnail
 
@@ -18,21 +19,19 @@
 
 --embed-metadata
 
-## Chapters
+## Chapters and Sponsor-Blocks
 
 --embed-chapters
+--sponsorblock-remove "all"
 
-## Audio
+## Video and Audio
 
---audio-multistreams
---audio-format opus
---audio-quality 0
+### Download and merge the best video-only format and the best audio-only format,
+### or download the best combined format if video-only format is not available
 
-## Video
-
---prefer-free-formats
---merge-output-format "mkv"
+-f "bv+ba/b"
+--remux-video "mkv"
 
 ## Browser-Cookies
 
---cookies-from-browser firefox
+--cookies-from-browser chrome
