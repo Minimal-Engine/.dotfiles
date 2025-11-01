@@ -34,4 +34,4 @@
 
 ## Browser-Cookies
 
---cookies-from-browser chrome
+--cookies-from-browser "firefox"
