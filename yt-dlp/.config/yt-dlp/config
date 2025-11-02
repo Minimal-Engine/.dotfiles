@@ -30,7 +30,7 @@
 ### or download the best combined format if video-only format is not available
 
 -f "bv+ba/b"
---remux-video "mkv"
+--remux-video "mp4"
 
 ## Browser-Cookies
 
