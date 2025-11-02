@@ -1,7 +1,5 @@
 # General configuraton for yt-dlp
 
---verbose
-
 ## Include Subtitles
 
 --embed-subs
@@ -9,7 +7,7 @@
 
 ## Download-diirectory and filename
 
--o ~/Downloads/%(channel)s_%(title)s
+-o ./%(channel)s_%(title)s.%(ext)s
 
 ## thumbnail
 
@@ -26,11 +24,15 @@
 
 ## Video and Audio
 
-### Download and merge the best video-only format and the best audio-only format,
-### or download the best combined format if video-only format is not available
+### Download and merge the best video-only format and the best audio-only format.
 
 -f "bv+ba/b"
---remux-video "mp4"
+--remux-video "mkv"
+--merge-output-format "mkv"
+
+### Use the system's dedicated temporary directory for intermediate files
+
+--paths temp:/tmp/yt-dlp_temp
 
 ## Browser-Cookies
 
