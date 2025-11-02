@@ -103,6 +103,9 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# use apple-ssh implementation
+export PATH="/usr/bin:$PATH"
+
 # custom aliases
 alias bfdump='brew bundle dump -f'
 alias chinese_inbox='cd ~/Movies/chinese_immersion_inbox/'
