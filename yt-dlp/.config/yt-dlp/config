@@ -24,7 +24,7 @@
 
 ## Video and Audio
 
-### Download and merge the best video-only format and the best audio-only format.
+### Download and merge the best video-only format and the best audio-only format
 
 -f "bv+ba/b"
 --remux-video "mkv"
@@ -36,4 +36,4 @@
 
 ## Browser-Cookies
 
---cookies-from-browser "firefox"
+--cookies-from-browser "chrome"
