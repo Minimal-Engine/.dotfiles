@@ -7,7 +7,7 @@
 
 ## Download-diirectory and filename
 
--o ./%(channel)s_%(title)s.%(ext)s
+-o ~/Downloads/%(channel)s_%(title)s.%(ext)s
 
 ## thumbnail
 
