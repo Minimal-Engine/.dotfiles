@@ -25,10 +25,13 @@ dnf check-update
 sudo dnf install code -y
 
 ## Install essential tools
-sudo dnf install tldr mpv nvim tmux alacritty vim nvim zsh stow yt-dlp vlc keepassxc unison -y
+sudo dnf install tldr mpv nvim tmux alacritty vim nvim zsh stow yt-dlp vlc unison -y
 
 ## Install steam
 sudo dnf install steam -y
+
+## install google chrome
+sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
 
 ## install and configure git
 sudo dnf install git -y
@@ -50,32 +53,7 @@ sudo dnf install libdvdcss
 sudo dnf install rpmfusion-nonfree-release-tainted
 sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware"
 
-# pull my dotfiles and stow them
-## pull public dotfiles repo
-git clone Minimal-Engine/.dotfiles
-cd ~/.dotfiles
 
-##stow the first part
-stow alacritty
-stow vim
-stow yt-dlp
-stow tmux 
-
-##setup vundle and install vim plugins
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-
-## setup mpvacious 
-mkdir -p ~/.config/mpv/scripts/
-git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
-cd ~/.dotfiles
-stow mpvacious
-
-## setup zsh and ohmyzsh
-chsh -s $(which zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rm ~/.zshrc
-stow ~/.dotfiles/zsh
 
 # install flatpak and some flatpaks
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo

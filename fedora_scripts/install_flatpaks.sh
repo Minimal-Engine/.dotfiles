@@ -23,6 +23,7 @@ flatpak_apps=(
     io.bassi.Amberol
     org.libretro.RetroArch
     com.obsproject.Studio
+    app.zen_browser.zen
 )
 
 # Add Flathub remote repository if not added
@@ -38,7 +39,7 @@ fi
 # Install each flatpak application
 for app in "${flatpak_apps[@]}"; do
     echo "Installing $app..."
-    flatpak install -y flathub "$app"
+    flatpak install --user -y flathub "$app"
     if [ $? -eq 0 ]; then
         echo "$app installed successfully."
     else
