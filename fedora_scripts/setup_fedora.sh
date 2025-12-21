@@ -25,7 +25,7 @@ dnf check-update
 sudo dnf install code -y
 
 ## Install essential tools
-sudo dnf install tldr mpv nvim tmux alacritty vim nvim zsh stow yt-dlp vlc unison -y
+sudo dnf install rclone tldr mpv nvim tmux alacritty vim nvim zsh stow yt-dlp vlc unison -y
 
 ## Install steam
 sudo dnf install steam -y
