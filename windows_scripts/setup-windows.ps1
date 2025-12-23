@@ -26,7 +26,7 @@ $appList = @(
     "Google.GoogleDrive",           # Google Drive
     "KeePassXCTeam.KeePassXC",      # KeePassXC
     "Microsoft.MinecraftLauncher",  # Minecraft Client
-    "Mozilla.Thunderbird",           # Thunderbird
+    "Mozilla.Thunderbird",          # Thunderbird
     "Microsoft.Powershell"          # PowerShell
 )
 
