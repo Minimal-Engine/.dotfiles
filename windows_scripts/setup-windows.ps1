@@ -42,3 +42,5 @@ foreach ($app in $appList) {
 }
 
 Write-Host "All applications and their dependencies have been installed!"
+
+# End of script
