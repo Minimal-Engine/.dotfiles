@@ -53,12 +53,3 @@ sudo dnf install libdvdcss
 sudo dnf install rpmfusion-nonfree-release-tainted
 sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware"
 
-
-
-# install flatpak and some flatpaks
-flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-chmod +x ~/.dotfiles/fedora_scripts/install_flatpaks.sh
-~/.dotfiles/fedora_scripts/install_flatpaks.sh
-
-# setup wallpaper
-gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/$(whoami)/.dotfiles/wallpaper/minimal_wallpaper.jpg'

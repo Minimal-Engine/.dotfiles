@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# List of flatpaks to install
 flatpak_apps=(
     org.gnome.World.PikaBackup
     net.ankiweb.Anki
@@ -26,25 +25,11 @@ flatpak_apps=(
     app.zen_browser.zen
 )
 
-# Add Flathub remote repository if not added
-if ! flatpak remote-list | grep -q "flathub"; then
-    echo "Adding Flathub remote repository..."
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-    if [ $? -ne 0 ]; then
-        echo "Failed to add Flathub repository. Exiting."
-        exit 1
-    fi
+# Add Flathub remote to user scope
+if ! flatpak remote-list --user | grep -q "flathub"; then
+    flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 fi
 
-# Install each flatpak application
 for app in "${flatpak_apps[@]}"; do
-    echo "Installing $app..."
     flatpak install --user -y flathub "$app"
-    if [ $? -eq 0 ]; then
-        echo "$app installed successfully."
-    else
-        echo "Failed to install $app."
-    fi
 done
-
-echo "All flatpaks installed successfully."
