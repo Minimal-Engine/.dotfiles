@@ -1,9 +1,6 @@
 #!/bin/bash
 
-cd ~/
-# pull my dotfiles and stow them
-## pull public dotfiles repo
-git clone Minimal-Engine/.dotfiles
+#go to dotfiles directory
 cd ~/.dotfiles
 
 ##stow the first part
