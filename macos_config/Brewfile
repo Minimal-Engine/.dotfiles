@@ -4,10 +4,11 @@ brew "borgbackup"
 brew "cmatrix"
 brew "cmus"
 brew "coreutils"
+brew "fastfetch"
 brew "ffmpeg"
 brew "python@3.13"
 brew "flake8"
-brew "gemini-cli"
+brew "freerdp"
 brew "git"
 brew "htop"
 brew "irssi"
@@ -42,19 +43,21 @@ cask "aural"
 cask "calibre"
 cask "cyberduck"
 cask "discord"
+cask "dolphin"
 cask "font-adwaita-mono-nerd-font"
 cask "font-dejavu-sans-mono-nerd-font"
 cask "google-chrome"
 cask "google-drive"
 cask "iina"
 cask "keepassxc"
+cask "libreoffice"
+cask "libreoffice-language-pack"
 cask "maccy"
 cask "macfuse"
 cask "microsoft-auto-update"
 cask "microsoft-teams"
 cask "mullvad-vpn"
 cask "obsidian"
-cask "pcsx2"
 cask "raspberry-pi-imager"
 cask "retroarch-metal"
 cask "tailscale-app"
@@ -68,10 +71,11 @@ cask "yacreader"
 cask "zen"
 mas "Amphetamine", id: 937984704
 mas "Focus", id: 1554411065
+mas "iA Writer", id: 775737590
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
-mas "Momentum", id: 1564329434
 mas "Obsidian Web Clipper", id: 6720708363
+mas "Outbank", id: 1094255754
 mas "SponsorBlock", id: 1573461917
 mas "Telegram", id: 747648890
 mas "TextSniper", id: 1528890965
